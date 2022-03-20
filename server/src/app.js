@@ -7,6 +7,8 @@ const api = require('./routes/api');
 
 const app = express();
 
+// Test comment
+
 app.use(cors({
     origin: 'http://localhost:3000',
 }));
